@@ -27,3 +27,25 @@ function invertiParola(str){
 
 
 
+// l'utente fa la sua scelta//
+
+let userChoice = prompt('scegli pari o dispari');
+
+let userNumber = parseInt(prompt('inserisci un numero da 1  a 5'), 10);
+
+
+function getRandomNumber(numMin, numMax) {
+    const randomNumber = Math.floor( Math.random () * (numMax - numMin + 1) + numMin);
+    return randomNumber;
+}
+
+
+
+function isEven(number){
+
+    if (number % 2 == 0 ){
+        return true
+    }
+    
+
+}
